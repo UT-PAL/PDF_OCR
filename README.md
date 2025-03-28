@@ -1,8 +1,8 @@
-OCR Text Underlining and PDF Conversion
-Overview
+#OCR Text Underlining and PDF Conversion
+##Overview
 This Python script performs Optical Character Recognition (OCR) on a given PDF file using the EasyOCR library. It searches for specific text (provided by the user) in the document and highlights (underlines) the found text with a randomly chosen color. The results are saved as images and then converted back into a PDF.
 
-Features:
+##Features:
 Converts PDF pages into images using the pdf2image library.
 
 Performs OCR to detect and read text using EasyOCR.
@@ -13,7 +13,7 @@ Saves the images with underlined text as PNG files.
 
 Converts the images back into a PDF document using img2pdf.
 
-Requirements
+##Requirements
 Before running the script, you need to install the following dependencies:
 
 easyocr: For OCR text recognition.
